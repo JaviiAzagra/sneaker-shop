@@ -1,0 +1,147 @@
+.box h1 {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.box {
+  text-align: center;
+
+  &__info{
+    background-color: #f07c51;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
+    p{
+      color: black;
+      font-weight: bold;
+    }
+  }
+  
+  &__header{
+    text-align: center;
+
+    img{
+      height: auto;
+      border-style: none;
+      vertical-align: top;
+      width: 100%;
+    }
+
+    p{
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      transform: translate(-50%, -50%);
+      text-shadow: 0 0 0.2em black;
+    }
+    span{
+      position: absolute;
+      top: 53%;
+      left: 50%;
+      color: white;
+      font-size: 30px;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  padding-top: 150px;
+  padding-bottom: 100px;
+
+  &__sneaker {
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+
+    img{
+        border-radius: 20px;
+        width: 350px;
+    }
+
+    &--title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: white;
+      font-size: 40px;
+      transform: translate(-50%, -50%);
+      text-shadow: 0 0 0.2em black;
+      cursor: pointer;
+    }
+  }
+
+
+  &__hoodies {
+    position: relative;
+    text-align: center;
+
+    img{
+        border-radius: 20px;
+        width: 350px;
+    }
+
+    &--title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      color: white;
+      font-size: 40px;
+      transform: translate(-50%, -50%);
+      text-shadow: 0 0 0.2em black;
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+
+  .box {
+    text-align: center;
+    
+    &__header{
+      text-align: center;
+  
+      img{
+        height: 100%;
+        border-style: none;
+        vertical-align: top;
+        width: 100%;
+      }
+  
+      p{
+        position: absolute;
+        top: 28%;
+        left: 50%;
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 0 0.3em black;
+      }
+      span{
+        position: absolute;
+        top: 34%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  
+  }
+
+  .container{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-top: 90px;
+  }
+}
