@@ -14,6 +14,7 @@ import { SubfooterComponent } from './components/subfooter/subfooter.component';
 import { AdidasComponent } from './components/adidas/adidas.component';
 import { NikeComponent } from './components/nike/nike.component';
 import { BalenciagaComponent } from './components/balenciaga/balenciaga.component';
+import { EnviosComponent } from './pages/envios/envios.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +26,8 @@ import { BalenciagaComponent } from './components/balenciaga/balenciaga.componen
     SubfooterComponent,
     AdidasComponent,
     NikeComponent,
-    BalenciagaComponent
+    BalenciagaComponent,
+    EnviosComponent
 
   ],
   imports: [

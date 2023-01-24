@@ -1,3 +1,4 @@
+import { EnviosComponent } from './pages/envios/envios.component';
 import { BalenciagaComponent } from './components/balenciaga/balenciaga.component';
 import { NikeComponent } from './components/nike/nike.component';
 import { AdidasComponent } from './components/adidas/adidas.component';
@@ -13,11 +14,14 @@ const routes: Routes = [
   {path: "hoodies", component: HoodiesComponent},
   {path: "sneakers/adidas", component: AdidasComponent},
   {path: "sneakers/nike", component: NikeComponent},
-  {path: "sneakers/balenciaga", component: BalenciagaComponent}
+  {path: "sneakers/balenciaga", component: BalenciagaComponent},
+  {path: "shipping", component: EnviosComponent}
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {
+    scrollPositionRestoration: 'enabled'
+  })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
