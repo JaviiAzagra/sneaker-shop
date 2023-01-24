@@ -12,6 +12,14 @@
         align-items: flex-start;
         gap: 30px;
 
+        img{
+            width: 70px;
+        }
+        h1{
+            font-size: 20px;
+            line-height: 0;
+        }
+
         &--social{
             display: flex;
             justify-content: center;

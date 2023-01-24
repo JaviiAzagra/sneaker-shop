@@ -1,11 +1,20 @@
 <nav class="nav">
-    <div class="nav__title">
-        <h1 router routerLink="/">JaviShop</h1>
-    </div>
-    <div class="nav__links">
-        <a router routerLink="">Home</a>
-        <a routerLink="sneakers">Sneakers</a>
-        <a routerLink="hoodies">Hoodies</a>
-    </div>
-</nav>
+  <div class="nav__title">
+    <img src="../../../assets/logo.png" alt="">
+    <h1 router routerLink="/">Four Corners</h1>
+  </div>
+  <div class="nav__links">
+    <a router routerLink="">Home</a>
 
+    <div class="dropdown">
+      <a routerLink="/sneakers">Sneakers</a>
+      <div class="dropdown-content">
+        <a routerLink="/sneakers/adidas">Adidas</a>
+        <a routerLink="/sneakers/nike">Nike</a>
+        <a routerLink="/sneakers/balenciaga">Balenciaga</a>
+      </div>
+    </div>
+
+    <a routerLink="hoodies">Hoodies</a>
+  </div>
+</nav>
