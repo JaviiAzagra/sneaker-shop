@@ -11,6 +11,9 @@ import { SneakersComponent } from './pages/sneakers/sneakers.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HoodiesComponent } from './pages/hoodies/hoodies.component';
 import { SubfooterComponent } from './components/subfooter/subfooter.component';
+import { AdidasComponent } from './components/adidas/adidas.component';
+import { NikeComponent } from './components/nike/nike.component';
+import { BalenciagaComponent } from './components/balenciaga/balenciaga.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +22,10 @@ import { SubfooterComponent } from './components/subfooter/subfooter.component';
     HomeComponent,
     SneakersComponent,
     HoodiesComponent,
-    SubfooterComponent
+    SubfooterComponent,
+    AdidasComponent,
+    NikeComponent,
+    BalenciagaComponent
 
   ],
   imports: [
