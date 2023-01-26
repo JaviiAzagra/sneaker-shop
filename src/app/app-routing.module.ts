@@ -1,3 +1,4 @@
+import { DevolucionesComponent } from './pages/devoluciones/devoluciones.component';
 import { EnviosComponent } from './pages/envios/envios.component';
 import { BalenciagaComponent } from './components/balenciaga/balenciaga.component';
 import { NikeComponent } from './components/nike/nike.component';
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path: "sneakers/adidas", component: AdidasComponent},
   {path: "sneakers/nike", component: NikeComponent},
   {path: "sneakers/balenciaga", component: BalenciagaComponent},
-  {path: "shipping", component: EnviosComponent}
+  {path: "shipping", component: EnviosComponent},
+  {path: "return", component: DevolucionesComponent}
 ];
 
 @NgModule({
