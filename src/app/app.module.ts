@@ -16,6 +16,7 @@ import { NikeComponent } from './components/nike/nike.component';
 import { BalenciagaComponent } from './components/balenciaga/balenciaga.component';
 import { EnviosComponent } from './pages/envios/envios.component';
 import { DevolucionesComponent } from './pages/devoluciones/devoluciones.component';
+import { AccountComponent } from './pages/account/account.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +30,8 @@ import { DevolucionesComponent } from './pages/devoluciones/devoluciones.compone
     NikeComponent,
     BalenciagaComponent,
     EnviosComponent,
-    DevolucionesComponent
+    DevolucionesComponent,
+    AccountComponent
 
   ],
   imports: [
